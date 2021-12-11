@@ -8,7 +8,7 @@
   "projects": {
     "CleanArchitecture_NET6.WebUI": {
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "../ClientApp/src",
       "projectType": "application",
       "prefix": "app",
       "schematics": {
