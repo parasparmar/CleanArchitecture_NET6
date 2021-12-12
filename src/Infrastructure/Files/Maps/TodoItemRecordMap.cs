@@ -10,6 +10,8 @@ public class TodoItemRecordMap : ClassMap<TodoItemRecord>
     {
         AutoMap(CultureInfo.InvariantCulture);
 
-        Map(m => m.Done).ConvertUsing(c => c.Done ? "Yes" : "No");
+        Map(m => m.Done ? "Yes" : "No");
+            
+            //.ConvertUsing(c => c.Done ? "Yes" : "No");
     }
 }

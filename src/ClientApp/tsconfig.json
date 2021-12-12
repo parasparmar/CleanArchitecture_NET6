@@ -1,7 +1,8 @@
 {
   "compileOnSave": false,
-  "compilerOptions": {
+  "angularCompilerOptions": {
     "baseUrl": "../ClientApp",
+    "strictTemplates": true,
     "module": "es2020",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
